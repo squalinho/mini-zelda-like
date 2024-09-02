@@ -15,7 +15,7 @@ function love.load()
         herbe = love.graphics.newQuad(0, 96, 32, 32,spritesheet)
         terre1 = love.graphics.newQuad(32, 96, 32, 32,spritesheet)
         hero = love.graphics.newQuad(0, 128, 32, 32, spritesheet)
-
+   
 
     
     dami = {}
@@ -53,6 +53,7 @@ function love.update(dt)
 end
 
 function love.draw()
+
 
     if(gameMode == "editor") then 
 
